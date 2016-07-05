@@ -1,0 +1,39 @@
+{
+  "name": "chartography",
+  "version": "0.0.1",
+  "description": "A tool for creating graphs in html programmatically",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "lab",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thekemkid/chartography.git"
+  },
+  "keywords": [
+    "graph",
+    "html",
+    "pre-render",
+    "autocannon"
+  ],
+  "author": "Glen Keane <glenkeane.94@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thekemkid/chartography/issues"
+  },
+  "homepage": "https://github.com/thekemkid/chartography#readme",
+  "devDependencies": {
+    "code": "^3.0.1",
+    "lab": "^10.8.2",
+    "pre-commit": "^1.1.2",
+    "standard": "^7.1.2 "
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ]
+}
